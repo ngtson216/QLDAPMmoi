@@ -3,12 +3,13 @@
 using namespace std;
 
 int main(){
-    
     int n = a + a*0.07;
-int a = 100000000;
+    int a = 100000000;
+    int i = 1;
+    int n = a + a*0.07;
     int i = 1;
     while(n <= 200000000){
-        cout <<"Tien lai la" << i << " la: ";
+        cout <<"Tien lai nnam moi la" << i << " la: ";
         cout << n <<endl;;
         i+=1;
     }
